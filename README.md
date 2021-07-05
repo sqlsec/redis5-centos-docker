@@ -20,8 +20,5 @@ docker run -d -p 6379:6379 <IMAGE NAME>
 docker pull sqlsec/redis5-centos7-cron:latest
 
 # 创建容器
-docker run -d -p 6379:6379 <IMAGE NAME>
+docker run -d -p 6379:6379 sqlsec/redis5-centos7-cron:latest
 ```
-
-
-
